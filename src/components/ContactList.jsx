@@ -1,4 +1,4 @@
-// src/components/ContactList.js
+
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { removeContact } from '../features/contactsSlice';

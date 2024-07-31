@@ -7,7 +7,7 @@ import contactsReducer from './features/contactsSlice';
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist: ['contacts'], // doar contacts va fi păstrat în localStorage
+  whitelist: ['contacts'], 
 };
 
 const persistedReducer = persistReducer(persistConfig, contactsReducer);
